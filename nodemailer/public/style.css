@@ -1,0 +1,48 @@
+@media screen and (min-width: 1px) and (max-width: 499px) {
+    .container{
+        margin-top: 20%;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+    }
+    app-menu-desktop{
+        display: none
+    }
+    .titre{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1500px) {
+    .container{
+        margin-top: 10%;
+    }
+    app-nav{
+        display: none;
+    }
+    .titre{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+    }
+}
+@media screen and (min-width: 1501px) and (max-width: 10000px) {
+    .all{
+        background-image: url("img/tri.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 120%;
+    }
+    .container{
+        margin-top: 5%;
+    }
+    app-nav{
+        display: none;
+    }
+    .titre{
+        font-family: 'Permanent Marker', cursive;
+        color: rgb(55, 173, 252);
+        font-size: 35px;
+    }
+}

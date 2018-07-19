@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Thomas Araujo - Développeur Web</title>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    </head>
+    <body class="all">
+        <div class="container">
+            <h2 class=" titre text-center">N'hésitez pas ! Contacter moi !</h2><br/>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <form action="/send-email" method="post">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="nom">Nom <span class="rouge">*</span>: </label>
+                                    <input type="text" id="nom" name="name" value="" class="form-control" placeholder="Votre nom">
+                                    <p class="commantaire"></p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="prenom">Prénom <span class="rouge">*</span>:</label>
+                                    <input type="text" id="prenom" name="fistname" value="" class="form-control" placeholder="Votre prénom">
+                                    <p class="commantaire"></p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="mail">E-mail <span class="rouge">*</span>:</label>
+                                    <input type="email" id="mail" name="from" value="" class="form-control" placeholder="Votre e-mail">
+                                    <p class="commantaire"></p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="telephone">Téléphone :</label>
+                                    <input type="tel" id="telephone" name="phone" value="" class="form-control" placeholder="Votre téléphone">
+                                    <p class="commantaire"></p>
+                                </div>
+                                <div class="col-lg-12">
+                                    <label for="message">Message <span class="rouge">*</span>:</label>
+                                    <textarea rows="4" name="body" id="message" class="form-control" placeholder="Votre message" value=""></textarea>
+                                    <p class="commantaire"></p>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <p class="obligatoire"><span class="rouge">*</span> C'est information sont requises</p>
+                                </div>
+                                <div class="col-lg-12 text-center">
+                                    <button type="submit" class="btn btn-danger envoyer">Envoyer</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
